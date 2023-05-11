@@ -1,0 +1,186 @@
+*{
+    /*outline: red dashed 1px;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   
+     
+ }
+ body{
+  background-color: black;
+  color: white;
+ }
+ 
+
+ /*-----------new css------------------*/
+ .upperBanner-left{
+  float: right;
+  display: inline;
+  color: rgb(127, 89, 163);
+
+ }
+
+
+ button{
+  background-color: #6977f3; 
+  border: none;
+  color: rgb(238, 238, 238);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+ }
+
+ button:hover{
+  background-color: #818ad8; 
+ }
+
+ a:link { text-decoration: none;
+color: white; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.top-banner{
+  color: rgb(127, 89, 163) ;
+}
+
+
+.opening{
+  font-size: 100px;
+  text-align: center;
+  display: block;
+  transition: all .2s ease-in-out;
+  color:  rgb(127, 89, 163) ;
+}
+
+.opening:hover{
+  transform: scale(1.5);
+  text-decoration:wavy underline;
+}
+
+
+
+.intro{
+ 
+ text-align: center;
+ display:block;
+ display: block;
+ color: #6977f3;
+ font-size: 25px;
+}
+
+.brandname{
+  transition: all .2s ease-in-out;
+}
+
+.brandname:hover{
+  transform: scale(1.2);
+  color:  rgb(127, 89, 163) ;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns:auto  auto auto auto;
+  align-content: center;
+  row-gap: 40px;
+  justify-content: space-evenly;
+  
+}
+
+
+img{
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  
+}
+img:hover{
+  transform: scale(1.2);
+}
+
+h2{
+  text-align: center;
+  color: rgb(163, 89, 231);
+}
+
+.parts{
+  
+  
+  display: inline;
+  justify-content: space-between;
+  padding: 10px;
+}
+.step1:hover{
+  color: #919bf7;
+}
+.step2:hover:hover{
+  color: #4959eb;
+}
+.step3:hover:hover{
+  color: #8141e9;
+  
+}
+
+.step1{
+  font-size: 25px;
+ 
+}
+.step2{
+  font-size: 25px;
+}
+.step3{
+  font-size: 25px;
+}
+
+.alltext{
+ 
+  color: #ba83e7;
+  text-align: center;
+  font-size: 20px;
+}
+
+h3{
+  text-align: center;
+  font-size: 35px;
+  color: #6977f3;
+}
+p{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+li{
+  color: black;
+  display: inline;
+  align-content: center;
+
+  
+}
+
+.top-banner{
+  float: left;
+  font-size: 15px;
+}
+
+
+.banner-comp:hover{
+  font-weight: bolder;
+  border: 10px;
+  border-color: rgb(99, 28, 146);
+  box-shadow: 0 5px 15px rgb(188, 117, 236);
+  border-radius: 20px;
+  width: 10%;
+  
+}
+.banner-comp{
+  display: inline-block;
+}
