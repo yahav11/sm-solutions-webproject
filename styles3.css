@@ -50,6 +50,9 @@ a:active { text-decoration: none; }
 
 .top-banner{
   color: rgb(127, 89, 163) ;
+  border-radius: 15px;
+  
+  
 }
 
 
@@ -64,6 +67,9 @@ a:active { text-decoration: none; }
 .opening:hover{
   transform: scale(1.5);
   text-decoration:wavy underline;
+  
+  
+  
 }
 
 
@@ -183,4 +189,9 @@ li{
 }
 .banner-comp{
   display: inline-block;
+}
+
+
+h2{
+  font-size: 30px;
 }
